@@ -69,7 +69,3 @@ services:
 volumes:
   pgdata:
   uploads:
-
-networks:
-  default:
-    name: kitchenasty
