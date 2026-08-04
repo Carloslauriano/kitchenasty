@@ -27,6 +27,8 @@ RUN apk add --no-cache openssl
 
 WORKDIR /app
 
+ENV NODE_ENV=production
+
 COPY package.json package-lock.json ./
 COPY packages/shared/package.json packages/shared/
 COPY packages/server/package.json packages/server/
