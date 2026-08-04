@@ -27,6 +27,7 @@
     "typescript": "^5.7.0"
   },
   "dependencies": {
-    "@prisma/client": "^5.22.0"
+    "@prisma/client": "^5.22.0",
+    "pino-prettier": "^3.0.1-dev"
   }
 }
